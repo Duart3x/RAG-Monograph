@@ -1,0 +1,7 @@
+{
+    "latex-workshop.formatting.latex": "latexindent",
+    // configure latex output directory
+    "latex-workshop.latex.outDir": "%DIR%/out",
+    // pdf file should be in the same directory as the tex file
+    "editor.formatOnSave": true,
+}
