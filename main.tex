@@ -66,9 +66,17 @@ RAG overcomes this problem using dynamic retrieval from current data sources.
     \label{fig:gpt4o_mini_response}
 \end{figure}
 
+\break
+
 Other limitation of LLMs is that when they don't have the necessary information to answer a question, they tend to generate text
 that is not factually accurate or relevant to the query. This is known as \textit{hallucination} and can lead to misleading or incorrect responses.
-RAG addresses this issue by adding quality context to the query.
+RAG addresses this issue by adding quality context to the query (Figure \ref{fig:gpt4o_with_context}).
+
+\begin{figure}[htbp!]
+    \centerline{\includegraphics[width=0.48\textwidth]{images/gpt4o_with_context.png}}
+    \caption{GPT-4o mini response to the question "Who were the candidates for the 2024 USA election and who won in November?" with context}
+    \label{fig:gpt4o_with_context}
+\end{figure}
 
 \section{RAG Structure}
 The basic structure of RAG involves three key components: indexing, retrieval and generation (Figure \ref{fig:rag_structure}).
